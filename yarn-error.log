@@ -1,0 +1,49 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add cy:run --headed
+
+PATH: 
+  C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;c:\Program Files\Java\jdk-11.0.12;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;c:\Program Files\nodejs\node_modules\npm\bin\;C:\Users\azhuravel\AppData\Local\Microsoft\WindowsApps;C:\Users\azhuravel\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\azhuravel\AppData\Local\Programs\Fiddler;c:\Program Files\Java\jdk-11.0.12;C:\Users\azhuravel\AppData\Roaming\npm;C:\Users\azhuravel\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.13.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: cy:run: Invalid protocol: cy:
+      at Request.module.exports.Request.init (C:\Program Files (x86)\Yarn\lib\cli.js:141154:31)
+      at new Request (C:\Program Files (x86)\Yarn\lib\cli.js:140827:8)
+      at request (C:\Program Files (x86)\Yarn\lib\cli.js:137733:10)
+      at RequestManager.execute (C:\Program Files (x86)\Yarn\lib\cli.js:66192:15)
+      at RequestManager.shiftQueue (C:\Program Files (x86)\Yarn\lib\cli.js:66230:10)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:65899:13
+      at new Promise (<anonymous>)
+      at new F (C:\Program Files (x86)\Yarn\lib\cli.js:5301:28)
+      at RequestManager.request (C:\Program Files (x86)\Yarn\lib\cli.js:65897:19)
+      at NpmRegistry.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:31747:42)
+
+npm manifest: 
+  {
+    "name": "cypresseducation",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "cypress": "^9.2.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
